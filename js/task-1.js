@@ -1,4 +1,4 @@
-let items = categories.querySelectorAll('.item');
+let items = document.querySelectorAll('.item');
 console.log(`Number of categories: ${items.length}`);
 
 for(let i = 0; i < items.length; i++) {
